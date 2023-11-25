@@ -59,11 +59,6 @@ class LeetCode217():
             hashset.add(number)
         return False
 
-class LeetCode242():
-    # return true if input string t is an anagram of s and false otherwise
-    def SortedSolution(s, t):
-        return sorted(s) == sorted(t)
-
 class LeetCode:
     # generate input
     def GetString(number):
